@@ -1,10 +1,9 @@
-import Calculator.Calculator
+from Calculator import Calculator
 
+a, b = 5, 10
 
-a, b = 3, 5
-
-calc = Calculator()
-print(calc.sum(3, 5))
-print(calc.sub(3, 5))
-print(calc.mul(3, 5))
-print(calc.div(3, 5))
+cal = Calculator.Calculator()
+print(cal.sum(a, b))
+print(cal.sub(a, b))
+print(cal.mul(a, b))
+print(cal.div(a, b))
