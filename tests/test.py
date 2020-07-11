@@ -1,4 +1,4 @@
-from intotherain import Calculator
+import Calculator.Calculator
 
 
 a, b = 3, 5

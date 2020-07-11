@@ -7,7 +7,7 @@ setup(
     author='time_to_bye',
     author_email='secret@secret.com',
     url='https://github.com/timetobye/Make_pypi_practice',
-    packages = find_packages(),
+    packages=find_packages(exclude=['docs', 'test.py']),
     install_requires=[
         'numpy==1.19.0',
         'pandas==1.0.5',
@@ -16,5 +16,6 @@ setup(
         'six==1.15.0'
     ],
     keywords=['practice', 'temp_practice'],
-    python_requires='>=3'
+    python_requires='>=3',
+    zip_safe=False
 )
