@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='intotherain',
+    name='intotherainbow',
     version='0.0.1',
     description='Basic Calculator',
     author='time_to_bye',
@@ -16,6 +16,5 @@ setup(
         'six==1.15.0'
     ],
     keywords=['practice', 'temp_practice'],
-    python_requires='>=3',
-    zip_safe=False
+    python_requires='>=3'
 )
